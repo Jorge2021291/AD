@@ -13,10 +13,10 @@ public class Act10 {
                 System.exit(-1);
             }
 
-            String pathOrigen = args[0];
+            String pathOrigen = "C:\\Users\\Jorge\\Downloads\\logo-java.png";
             String pathDestino = pathOrigen + "backup\\";
             // Define aqui tu directorio destino
-            String fichero = args[1];
+            String fichero = "C:\\Users\\Jorge\\OneDrive\\Documents\\";
             File ficheroCopiar = new File(pathOrigen, fichero);
             File ficheroDestino = new File(pathDestino, fichero);
             if (ficheroCopiar.exists()) {
