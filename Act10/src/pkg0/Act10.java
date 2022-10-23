@@ -1,39 +1,32 @@
 package pkg0;
 
+import pkg0.*;
+
 import java.io.*;
+import java.nio.file.*;
 
 public class Act10 {
+    public static void main(String[] args) {
+        try {
+            if (args.length != 2) {
+                System.out.println("Error el número de parametros debe de ser tres <Directorio Origen> <Fichero>");
+                System.exit(-1);
+            }
 
-        String rutaLogo = "C:\\Users\\Jorge\\Downloads\\logo-java.png";
-        String rutDestino = "C:\\Users\\Jorge\\OneDrive\\Documents\\Documentos";
-
-        try{
-            File inFile = new File(rutaLogo);
-            File outFile = new File(rutDestino);
-
-            FileInputStream in = new FileInputStream(inFile);
-            FileOutputStream out = new FileOutputStream(outFile);
-
-
-
-            int c;
-            while( (c = in.read() ) != -1)
-                out.write(c);
-
-            in.close();
-            out.close();
-
+            String pathOrigen = args[0];
+            String pathDestino = pathOrigen + "backup\\";
+            // Define aqui tu directorio destino
+            String fichero = args[1];
+            File ficheroCopiar = new File(pathOrigen, fichero);
+            File ficheroDestino = new File(pathDestino, fichero);
+            if (ficheroCopiar.exists()) {
+                Files.copy(Paths.get(ficheroCopiar.getAbsolutePath()), Paths.get(ficheroDestino.getAbsolutePath()), StandardCopyOption.REPLACE_EXISTING);
+            } else {
+                System.out.println("El fichero " + fichero + " no existe en el directorio " + pathOrigen);
+            }
 
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
-        public static void main(String args[]) {
-            if(args.length == 2)
-                new FileCopy(args[0], args[1]);
-            else
-                System.out.println("Debe ingresar dos parametros");
-        }
-
     }
-
 }
