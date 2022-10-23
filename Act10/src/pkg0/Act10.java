@@ -14,6 +14,8 @@ public class Act10 {
             FileInputStream in = new FileInputStream(inFile);
             FileOutputStream out = new FileOutputStream(outFile);
 
+
+
             int c;
             while( (c = in.read() ) != -1)
                 out.write(c);
