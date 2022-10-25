@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bufwrrd/bufwrrd.iml" filepath="$PROJECT_DIR$/bufwrrd/bufwrrd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caracteres/caracteres.iml" filepath="$PROJECT_DIR$/caracteres/caracteres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demos.iml" filepath="$PROJECT_DIR$/demos.iml" />
+    </modules>
+  </component>
+</project>
