@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898648b8-5887-4e02-8396-ae00d86a28b0" name="Changes" comment="primera hora 25/10/2022">
+    <list default="true" id="898648b8-5887-4e02-8396-ae00d86a28b0" name="Changes" comment="primera hora 26/10/2022">
+      <change afterPath="$PROJECT_DIR$/caracteres/src/carcateres/LeerFichtexto2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bufwrrd/src/buf/EscribirFichTextobuf.java" beforeDir="false" afterPath="$PROJECT_DIR$/bufwrrd/src/buf/EscribirFichTextobuf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bufwrrd/src/buf/LeerFichTextoBuf.java" beforeDir="false" afterPath="$PROJECT_DIR$/bufwrrd/src/buf/LeerFichTextoBuf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +42,44 @@
     "last_opened_file_path": "D:/Users/JorgeYu/Documents/AD/UD1/demos"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LeerFichtexto">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="carcateres" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LeerFichTextoBuf">
+    <configuration name="EscribirFichTextobuf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="buf.EscribirFichTextobuf" />
+      <module name="bufwrrd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="buf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EscribirFichtexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="carcateres.EscribirFichtexto" />
       <module name="caracteres" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="carcateres.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeerFichTextoBuf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="buf.LeerFichTextoBuf" />
+      <module name="bufwrrd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="buf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,6 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeerFichTextoBuf" />
+        <item itemvalue="Application.EscribirFichTextobuf" />
         <item itemvalue="Application.LeerFichtexto" />
         <item itemvalue="Application.EscribirFichtexto" />
       </list>
@@ -98,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666683013607</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="primera hora 26/10/2022">
+      <created>1666766667850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666766667850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primera hora 25/10/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="primera hora 25/10/2022" />
+    <MESSAGE value="primera hora 26/10/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="primera hora 26/10/2022" />
   </component>
 </project>
