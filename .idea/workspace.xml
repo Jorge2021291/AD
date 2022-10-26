@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898648b8-5887-4e02-8396-ae00d86a28b0" name="Changes" comment="primera hora 26/10/2022">
-      <change afterPath="$PROJECT_DIR$/caracteres/src/carcateres/LeerFichtexto2.java" afterDir="false" />
+    <list default="true" id="898648b8-5887-4e02-8396-ae00d86a28b0" name="Changes" comment="primera hora pt2 26/10/2022">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bufwrrd/src/caracteresPrintWriter/EscribirFichTextoPrintWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bufwrrd/src/caracteresPrintWriter/LeerFichTextoBuf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bufwrrd/src/nomCorr/EscribirFichTextoPrintWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bufwrrd/src/nomCorr/LeerFichTextoBuf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bufwrrd/src/buf/LeerFichTextoBuf.java" beforeDir="false" afterPath="$PROJECT_DIR$/bufwrrd/src/buf/LeerFichTextoBuf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bufwrrd/src/buf/EscribirFichTextobuf.java" beforeDir="false" afterPath="$PROJECT_DIR$/bufwrrd/src/buf/EscribirFichTextoBuf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,53 +37,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "D:/Users/JorgeYu/Documents/AD/UD1/demos"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Users/JorgeYu/Documents/AD/UD1/demos/bufwrrd/src/nomCorr&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\JorgeYu\Documents\AD\UD1\demos\bufwrrd\src\nomCorr" />
+      <recent name="D:\Users\JorgeYu\Documents\AD\UD1\demos\bufwrrd\src\caracteresPrintWriter" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="carcateres" />
     </key>
   </component>
   <component name="RunManager" selected="Application.LeerFichTextoBuf">
-    <configuration name="EscribirFichTextobuf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buf.EscribirFichTextobuf" />
-      <module name="bufwrrd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="buf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EscribirFichtexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="carcateres.EscribirFichtexto" />
-      <module name="caracteres" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="carcateres.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LeerFichTextoBuf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buf.LeerFichTextoBuf" />
+      <option name="MAIN_CLASS_NAME" value="nomCorr.LeerFichTextoBuf" />
       <module name="bufwrrd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="buf.*" />
+          <option name="PATTERN" value="nomCorr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +69,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeerFichtexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="carcateres.LeerFichtexto" />
-      <module name="caracteres" />
+    <configuration name="nomCorr.EscribirFichTextoPrintWriter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nomCorr.EscribirFichTextoPrintWriter" />
+      <module name="bufwrrd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="carcateres.*" />
+          <option name="PATTERN" value="nomCorr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nomCorr.EscribirFichTextoPrintWriter (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nomCorr.EscribirFichTextoPrintWriter" />
+      <module name="bufwrrd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nomCorr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nomCorr.EscribirFichTextoPrintWriter (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nomCorr.EscribirFichTextoPrintWriter" />
+      <module name="bufwrrd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nomCorr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nomCorr.EscribirFichTextoPrintWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nomCorr.EscribirFichTextoPrintWriter" />
+      <module name="bufwrrd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nomCorr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,9 +124,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.LeerFichTextoBuf" />
-        <item itemvalue="Application.EscribirFichTextobuf" />
-        <item itemvalue="Application.LeerFichtexto" />
-        <item itemvalue="Application.EscribirFichtexto" />
+        <item itemvalue="Application.nomCorr.EscribirFichTextoPrintWriter (3)" />
+        <item itemvalue="Application.nomCorr.EscribirFichTextoPrintWriter (2)" />
+        <item itemvalue="Application.nomCorr.EscribirFichTextoPrintWriter (1)" />
+        <item itemvalue="Application.nomCorr.EscribirFichTextoPrintWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666766667850</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="primera hora pt2 26/10/2022">
+      <created>1666767247912</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666767247912</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +185,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primera hora 25/10/2022" />
     <MESSAGE value="primera hora 26/10/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="primera hora 26/10/2022" />
+    <MESSAGE value="primera hora pt2 26/10/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="primera hora pt2 26/10/2022" />
   </component>
 </project>

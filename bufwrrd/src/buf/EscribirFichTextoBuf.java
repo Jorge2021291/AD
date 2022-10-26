@@ -3,7 +3,7 @@ package buf;
 import java.io.BufferedWriter;
 import java.io.*;
 
-public class EscribirFichTextobuf {
+public class EscribirFichTextoBuf {
     public static void main(String[] args) {
 
         File fichero = new File("D:\\Users\\JorgeYu\\Documents\\AD\\UD1\\demos\\caracteres\\demo.txt");
