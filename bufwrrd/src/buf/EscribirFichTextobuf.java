@@ -12,9 +12,11 @@ public class EscribirFichTextobuf {
         try{
             fSalida = new BufferedWriter(new FileWriter(fichero));
             for(int i = 1; i < 11; i++){
-
+                fSalida.write("Fila numero: " + i);
+                fSalida.newLine();
 
             }
+
 
 
         } catch (IOException e) {
