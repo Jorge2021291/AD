@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898648b8-5887-4e02-8396-ae00d86a28b0" name="Changes" comment="primera hora pt2 26/10/2022">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bufwrrd/src/caracteresPrintWriter/EscribirFichTextoPrintWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bufwrrd/src/caracteresPrintWriter/LeerFichTextoBuf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bufwrrd/src/nomCorr/EscribirFichTextoPrintWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bufwrrd/src/nomCorr/LeerFichTextoBuf.java" afterDir="false" />
+    <list default="true" id="898648b8-5887-4e02-8396-ae00d86a28b0" name="Changes" comment="segunda hora pt3 26/10/2022">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bufwrrd/src/buf/EscribirFichTextobuf.java" beforeDir="false" afterPath="$PROJECT_DIR$/bufwrrd/src/buf/EscribirFichTextoBuf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666767247912</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="segunda hora pt3 26/10/2022">
+      <created>1666771915086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666771915086</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +187,7 @@
     <MESSAGE value="primera hora 25/10/2022" />
     <MESSAGE value="primera hora 26/10/2022" />
     <MESSAGE value="primera hora pt2 26/10/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="primera hora pt2 26/10/2022" />
+    <MESSAGE value="segunda hora pt3 26/10/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="segunda hora pt3 26/10/2022" />
   </component>
 </project>
